@@ -49,6 +49,7 @@ public class MercuryTsPropertiesTest {
 	  boolean exp_flag1=true;
 	  Assert.assertEquals(act_flag1, exp_flag1);
 	  driver.findElement(By.linkText("SIGN-OFF")).click();
+	  System.out.println("Sign off page is displayed");
   }
   
   @Test(priority=2)
@@ -62,6 +63,7 @@ public class MercuryTsPropertiesTest {
 	  boolean exp_flag2=true;
 	  Assert.assertEquals(act_flag2, exp_flag2);
 	  driver.findElement(By.linkText("SIGN-OFF")).click();
+	  System.out.println("Sign off page is displayed");
   }
   
   @Test(priority=3)
@@ -75,6 +77,7 @@ public class MercuryTsPropertiesTest {
 	  boolean exp_flag3=true;
 	  Assert.assertEquals(act_flag3, exp_flag3);
 	  driver.findElement(By.linkText("SIGN-OFF")).click();
+	  System.out.println("Sign off page is displayed");
   }
   
   @Test(priority=4)
